@@ -232,5 +232,10 @@ ostream & operator << (ostream &out, Shi &l)
 }
 int main()
 {
+        cout<<"                      稀疏多项式计算器"<<endl;
+	cout<<"              请按照升幂次序输入第一个多项式"<<endl;
+	cout<<"第一项为系数第二项为指数，形如2 3 5 7 3 9则表示2x^3+5x^7-3x^9"<<endl; 
+	cout<<"              请按照升幂次序输入第二个多项式"<<endl;
+	cout<<"第一项为系数第二项为指数，形如2 3 5 7 3 9则表示2x^3+5x^7-3x^9"<<endl;
 	return 0;
 }
